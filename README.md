@@ -6,7 +6,7 @@
 # Ejecutar en desarrollo
 
 1. Clonar el repositorio
-2. Ejecutar 
+2. Ejecutar
 ```
 yarn install
 ```
@@ -19,6 +19,10 @@ npm i g @nest/cli
 docker-compose  up -d
 ```
 
+5. Reconstruir la Base de Datos
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack Usado
 * MongoDB

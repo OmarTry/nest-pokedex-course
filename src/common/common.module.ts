@@ -1,4 +1,8 @@
 import { Module } from '@nestjs/common';
+import { Adapter } from './adapters/http-request.adapter';
 
-@Module({})
+@Module({
+    providers: [ Adapter ],
+    exports: [Adapter]
+})
 export class CommonModule {}
